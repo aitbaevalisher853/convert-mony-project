@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: antiquewhite;
+
+}
+
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    top: 9em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    top: 12em;
+    right: 2em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.js-value-input {
+
+    width: 130%;
+    height: 2em;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.js-currency-selector {
+    margin: 2em 0;
+    background-color: #e7e7e7;
+    color: black;
+    width: 6em;
+    height: 3em;
+    border: none;
+    border-radius: 1em;
+}
